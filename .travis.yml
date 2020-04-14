@@ -1,0 +1,17 @@
+language: generic
+sudo: required
+services:
+    - docker
+deploy:
+    provider: elasticbeanstalk
+    region: "us-east-2"
+    app: "covid19-sim"
+    env: "Covid19Sim-env"
+    bucket_name: "elasticbeanstalk-us-east-2-107716788880"
+    bucket_path: "covid19-sim"
+    on:
+        branch: master
+    access_key_id:
+        secure: "$AWS_ACCESS_KEY"
+    secret_access_key:
+        secure: "$AWS_SECRET_KEY"
