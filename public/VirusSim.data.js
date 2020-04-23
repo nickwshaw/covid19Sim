@@ -173,6 +173,6 @@ Module['FS_createPath']('/VirusSim/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 89, "filename": "/UE4CommandLine.txt"}, {"start": 89, "audio": 0, "end": 40754265, "filename": "/VirusSim/Content/Paks/VirusSim-HTML5.pak"}], "remote_package_size": 40754265, "package_uuid": "290d48df-b39a-4267-a244-f48103d8498b"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 89, "filename": "/UE4CommandLine.txt"}, {"start": 89, "audio": 0, "end": 40151338, "filename": "/VirusSim/Content/Paks/VirusSim-HTML5.pak"}], "remote_package_size": 40151338, "package_uuid": "4bd9019f-47cc-49ce-b7cd-b8e137ac096e"});
 
 })();
